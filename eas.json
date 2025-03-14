@@ -1,23 +1,27 @@
 {
   "build": {
     "production": {
-
+      "node": "20"
     },
     "preview": {
       "android": {
         "buildType": "apk"
-      }
+      },
+      "node": "20"
     },
     "preview2": {
       "android": {
         "gradleCommand": ":app:assembleRelease"
-      }
+      },
+      "node": "20"
     },
     "preview3": {
-      "developmentClient": true
+      "developmentClient": true,
+      "node": "20"
     },
     "preview4": {
-      "distribution": "internal"
+      "distribution": "internal",
+      "node": "20"
     }
   },
   "cli": {
