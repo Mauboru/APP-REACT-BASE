@@ -8,7 +8,7 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.jpg",
+      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,7 +16,6 @@
       "supportsTablet": true
     },
     "android": {
-      "useCleartextTraffic": true,
       "adaptiveIcon": {
         "foregroundImage": "./assets/logo.png"
       },
@@ -43,6 +42,12 @@
       "eas": {
         "projectId": "da213697-44d6-4a3b-9b8e-57d5befb017d"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/da213697-44d6-4a3b-9b8e-57d5befb017d"
     }
   }
 }
